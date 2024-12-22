@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "2ZUE3yt/BHyLZMhZyK5JGjfZ2EtK4bjlhTTy1/221ReVCZUeP2tkjj7Zl5okQuyo7I+dWpOzKowanbFD9BFDeg==",
+  "dgSpecHash": "6PdIxmdJ0pk=",
   "success": true,
-  "projectFilePath": "/home/nvparrish/work/BYUI/cse210/repos/master/cse210_live-coding-template/live/sorting/sorting.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\MUCACRAN\\Downloads\\examen\\cse210_live-coding-template\\live\\sorting\\sorting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MUCACRAN\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.8\\microsoft.netcore.app.ref.8.0.8.nupkg.sha512",
+    "C:\\Users\\MUCACRAN\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.8\\microsoft.windowsdesktop.app.ref.8.0.8.nupkg.sha512",
+    "C:\\Users\\MUCACRAN\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.8\\microsoft.aspnetcore.app.ref.8.0.8.nupkg.sha512",
+    "C:\\Users\\MUCACRAN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.8\\microsoft.netcore.app.host.win-x64.8.0.8.nupkg.sha512"
+  ],
   "logs": []
 }

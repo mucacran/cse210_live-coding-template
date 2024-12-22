@@ -17,6 +17,8 @@ namespace LiveCoding
             _denominator = denominator;
         }
 
+
+
         public override string ToString()
         {
             return $"{_numerator}/{_denominator}";
