@@ -17,11 +17,17 @@ namespace LiveCoding
             _denominator = denominator;
         }
 
-
-
         public override string ToString()
         {
             return $"{_numerator}/{_denominator}";
+        }
+
+        /***********
+        * añadido *
+        ***********/
+        public double ToDouble()
+        {
+            return (double)_numerator / _denominator;
         }
     }
 }
