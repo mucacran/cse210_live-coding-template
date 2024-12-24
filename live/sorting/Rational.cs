@@ -2,7 +2,7 @@ using System.Diagnostics;
 
 namespace LiveCoding
 {
-    public class Rational
+    public class Rational : IComparable<Rational>
     {
         int _numerator;
         int _denominator;
@@ -25,9 +25,16 @@ namespace LiveCoding
         /***********
         * añadido *
         ***********/
+        /*
         public double ToDouble()
         {
             return (double)_numerator / _denominator;
+        }*/
+
+        public int CompareTo(Rational num){
+            int valor1 = _numerator * num._denominator;
+            int valor2 = num._numerator * _denominator;
+            return valor1.CompareTo(valor2);
         }
     }
 }
